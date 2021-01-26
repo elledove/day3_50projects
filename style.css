@@ -15,14 +15,37 @@ body {
 
 .container{
   background-color: #fafafa;
+  /*this is responsible for the transform rotate to start at the top left of webpage*/
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width:100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
 
-/*this is responsible for rotating everything in the  parent container by -20 degreees*/
+/*this is responsible for rotating everything in the  parent container by -20 degrees*/
 .container.show-nav{
   transform: rotate(-20deg);
+  
 }
 
 
 img{
   width:500px;
+}
+
+.circle-container{
+  position: fixed;
+  top:-100px;
+  left: -100px;
+
+}
+
+.circle{
+  background-color: lightseagreen;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
 }
