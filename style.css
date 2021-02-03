@@ -67,12 +67,18 @@ outline: none;
 
 }
 
+
+.container.show-nav .circle {
+transform: rotate(-70deg);
+
+}
+
 #open{
 
   left:60%;
 }
 
-.circle button#close{
+#close{
   top:60%;
   transform: rotate(90deg);
   transform-origin: top left;
