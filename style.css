@@ -77,3 +77,19 @@ outline: none;
   transform: rotate(90deg);
   transform-origin: top left;
 }
+
+.content{
+
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0px;
+}
+
+.content small{
+  color:#222;
+  font-style: italic
+  ;
+}
